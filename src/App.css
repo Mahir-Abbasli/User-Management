@@ -1,0 +1,168 @@
+.window{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.header{
+    width: 60%;
+    height: 80px;
+    display: flex;
+    background-color: #289AE7;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+}
+
+.header1{
+    width: 60%;
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    padding-left: 40px;
+}
+
+.header2{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header3{
+    padding-right: 2%;
+}
+
+.span0 {
+    background-color: white;
+    width: 85%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+}
+
+.span1 {
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 5%;
+}
+.span2{
+    width: 85%;
+    font-size: 14px;
+    color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fileIcon{
+    width: 18px;
+    height: 18px;
+}
+
+.table{
+    width: 60%;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #78859F;
+    border-bottom: none;
+}
+
+.title {
+    display: flex;
+    font-size: 16px;
+    color: #78859F;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.body1 {
+    display: flex;
+    flex: 20%;
+    height: 60px;
+    align-items: center;
+    
+}
+
+.body05{
+    display: flex;
+    flex: 10%;
+    height: 60px;
+    align-items: center;
+}
+
+.avatarIcon{
+    width: 35px;
+    height: 35px;
+}
+
+.dotIcon{
+    width: 18px;
+    height: 18px;
+}
+
+.settingIcon{
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+}
+
+.deleteIcon {
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+}
+
+.footer{
+    width: 59.90%;
+    height: 90px;
+    border: 1px solid #78859F;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top: none;
+}
+
+.footer1{
+    width: 60%;
+    float: left;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: #78859F;
+}
+
+.footer2 {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #78859F;
+}
+
+.prenext{
+    color: #78859F;
+    cursor: pointer;
+}
+
+.numbers{
+    width: 25px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
